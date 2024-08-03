@@ -1,0 +1,94 @@
+<mxfile host="65bd71144e">
+    <diagram id="_WDyxY8_S5y_W9taFj5F" name="페이지-1">
+        <mxGraphModel dx="840" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="37" value="필요 기능" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillStyle=auto;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="290" height="572" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="+ TV 전원 on/off" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;" parent="37" vertex="1">
+                    <mxGeometry y="26" width="290" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="+ 음량 조절" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;" parent="37" vertex="1">
+                    <mxGeometry y="52" width="290" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="+ 방향키 버튼" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;" parent="37" vertex="1">
+                    <mxGeometry y="78" width="290" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="+ 블루투스 연결" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;" vertex="1" parent="37">
+                    <mxGeometry y="104" width="290" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="+ 텍스트 박스 " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;" vertex="1" parent="37">
+                    <mxGeometry y="130" width="290" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="+ 마이크 사용 가능 (2순위)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;" vertex="1" parent="37">
+                    <mxGeometry y="156" width="290" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="+  라이트/다크모드 전환 (2순위)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;" vertex="1" parent="37">
+                    <mxGeometry y="182" width="290" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="+ 로그인" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;" vertex="1" parent="37">
+                    <mxGeometry y="208" width="290" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="+ 설치한 앱 보기" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;" vertex="1" parent="37">
+                    <mxGeometry y="234" width="290" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="+ 즐겨찾기 (2순위)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;" vertex="1" parent="37">
+                    <mxGeometry y="260" width="290" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="+ 블루투스 기기 검색 버튼" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;" vertex="1" parent="37">
+                    <mxGeometry y="286" width="290" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="+ 슬라이드 기능 (터치패트, 방향키 버튼 화면 전환)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;" vertex="1" parent="37">
+                    <mxGeometry y="312" width="290" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="+ 방향키 버튼 클릭으로 상하좌우 움직이는지 확인" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;" vertex="1" parent="37">
+                    <mxGeometry y="338" width="290" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="+ 음량 조절 버튼 (버튼 클릭과 슬라이드 2가지 기능)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;" vertex="1" parent="37">
+                    <mxGeometry y="364" width="290" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="+ 영상 및 음악 일시 정지, 뒤로감기 앞으로 감기 기능" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;" vertex="1" parent="37">
+                    <mxGeometry y="390" width="290" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="+ OK 버튼 클릭 시 확인이나 다음으로 넘어가는 기능" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;" vertex="1" parent="37">
+                    <mxGeometry y="416" width="290" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="+ 블루투스 기기 목록" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;" vertex="1" parent="37">
+                    <mxGeometry y="442" width="290" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="+ 현재 블루투스가 어떤 기기에 연결되어 있는지 확인" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;" vertex="1" parent="37">
+                    <mxGeometry y="468" width="290" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="+ 블루투스 기기 목록의 이름 변경 (2순위)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;" vertex="1" parent="37">
+                    <mxGeometry y="494" width="290" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="+ 터치패트 (2순위)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;" vertex="1" parent="37">
+                    <mxGeometry y="520" width="290" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="+ 텍스트 박스 클릭 시 자판 나타나게 하기&#10;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;" vertex="1" parent="37">
+                    <mxGeometry y="546" width="290" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="스켈레톤 목록" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="40" width="270" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="버튼 클릭 시 ture, false 반환" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="61">
+                    <mxGeometry y="30" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="버튼 클릭 시 위치 이동" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="61">
+                    <mxGeometry y="60" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="블루투스 연결 및 검색 기능" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="61">
+                    <mxGeometry y="90" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="로그인 폼" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="61">
+                    <mxGeometry y="120" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="슬라이드 모션" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="61">
+                    <mxGeometry y="150" width="270" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
